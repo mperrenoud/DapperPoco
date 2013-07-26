@@ -74,3 +74,17 @@ Or maybe I wanted to `DELETE` a `Person`:
     Person.Execute(p.Delete, p, "Id");
 
 That would execute a query like this `DELETE FROM [Person] WHERE [Id] = @Id`.
+
+###Simple
+
+As you can see from the examples, or at least I hope you agree, it's pretty simple. You can build the POCO with some basic attributing and then leverage some pretty straight forward commands to execute queries without having to build them yourself. Of course, if the queries were much more complex you'd have to send one in manually. But that can be done:
+
+    var list = Person.Query("SELECT p.*, u.UserName FROM Person p JOIN User u ON p.Id = u.PersonId WHERE p.Id = @Id", new { Id = 5 });
+
+###Attribute Driven
+
+The idea is that the POCO objects are attribute driven so that they can be easily *configured* in code.
+
+###97.23% Code Coverage
+
+A unit test project exists to ensure high levels of code coverage so that stability remains a high priority. My goal is to continue to keep this above 95% at all times.
