@@ -13,7 +13,7 @@ However, to keep it fast and lightweight the contributors of the library work ve
 * Lightweight
 * Simple
 * Attribute Driven
-* 97.23% Code Coverage
+* 95%+ Code Coverage
 
 ###Lightweight
 
@@ -87,6 +87,6 @@ As you can see from the examples, or at least I hope you agree, it's pretty simp
 
 The idea is that the POCO objects are attribute driven so that they can be easily *configured* in code.
 
-###97.23% Code Coverage
+###95%+ Code Coverage
 
 A unit test project exists to ensure high levels of code coverage so that stability remains a high priority. My goal is to continue to keep this above 95% at all times.
