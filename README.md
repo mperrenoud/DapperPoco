@@ -6,7 +6,7 @@
 
 Dapper is the fastest and most concise database access library on the market today. [Stack Overflow](http://stackoverflow.com) uses it because of its speed, and with millions of hits every day that's saying something.
 
-However, to keep it fast and lightweight the contributors of the library work very hard to ensure that it **only** meets the needs of database access. This left room for a lightweight library to be set on top of it that is capable of automating some of the tasks necessary to working with the POCO objects. Enter *DapperWrapper*!
+However, to keep it fast and lightweight the contributors of the library work very hard to ensure that it **only** meets the needs of database access. This left room for a lightweight library to be set on top of it that is capable of automating some of the tasks necessary to working with the POCO objects. Enter *DapperPoco*!
 
 ##Benefits
 
