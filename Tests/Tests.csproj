@@ -56,9 +56,9 @@
     <Compile Include="DataModelBaseTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DapperWrapper\DapperWrapper.csproj">
+    <ProjectReference Include="..\DapperPoco\DapperPoco.csproj">
       <Project>{9ff1fcc0-8d7d-44d9-8709-caa7dece0b59}</Project>
-      <Name>DapperWrapper</Name>
+      <Name>DapperPoco</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

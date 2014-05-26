@@ -9,3 +9,14 @@ C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\Tests\bin\De
 C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\Tests\obj\Debug\Tests.dll
 C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\Tests\obj\Debug\Tests.pdb
+C:\github\DapperWrapper\Tests\bin\Debug\Data.sdf
+C:\github\DapperWrapper\Tests\bin\Debug\Tests.dll
+C:\github\DapperWrapper\Tests\bin\Debug\Tests.pdb
+C:\github\DapperWrapper\Tests\bin\Debug\Dapper.dll
+C:\github\DapperWrapper\Tests\bin\Debug\Dapper.pdb
+C:\github\DapperWrapper\Tests\bin\Debug\Dapper.xml
+C:\github\DapperWrapper\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\github\DapperWrapper\Tests\obj\Debug\Tests.dll
+C:\github\DapperWrapper\Tests\obj\Debug\Tests.pdb
+C:\github\DapperWrapper\Tests\bin\Debug\DapperPoco.dll
+C:\github\DapperWrapper\Tests\bin\Debug\DapperPoco.pdb

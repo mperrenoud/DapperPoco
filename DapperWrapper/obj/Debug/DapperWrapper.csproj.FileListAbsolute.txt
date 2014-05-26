@@ -1,7 +1,0 @@
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\bin\Debug\DapperWrapper.dll
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\bin\Debug\DapperWrapper.pdb
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\bin\Debug\Dapper.dll
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\bin\Debug\Dapper.pdb
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\bin\Debug\Dapper.xml
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\obj\Debug\DapperWrapper.dll
-C:\Users\u1h035\Documents\Visual Studio 2012\Projects\DapperWrapper\DapperWrapper\obj\Debug\DapperWrapper.pdb
