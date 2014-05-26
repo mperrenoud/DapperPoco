@@ -1,4 +1,4 @@
-#DapperWrapper
+#DapperPoco
 
 **NOTE:** I am actively looking for contributors to this project. I don't have all of the great ideas, and need some help so that this library can reach its full potential. I will of course be an active contributor, but innovation is spawned by people getting together and saying, "Hey, if it did this man it would rock even more!"
 
