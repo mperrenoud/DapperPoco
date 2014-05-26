@@ -45,7 +45,24 @@ You could filter that query if you wanted:
 
     var list = Person.Query(null, new { Id = 1 }, "Id");
 
-and that would build a query like this `SELECT [Id], [FirstName], [LastName] FROM [Person] WHERE [Id] = @Id`.
+and that would build a query like this `SELECT [Id], [FirstName], [LastName] FROM [Person] WHERE [Id] = @Id`. The reason that works is because `"Id"` is embedded in the generated `WHERE` clause. If you wanted to filter on `FirstName` and `LastName` that code might look like this:
+
+    var list = Person.Query(null,
+        new { FirstName = "Michael", LastName = "Perrenoud" },
+        "FirstName", "LastName");
+
+The `Query` goes through a `Filter` method before executing:
+
+    public static string Filter(this string s, params string[] fields)
+    {
+        if (fields == null || fields.Length == 0)
+        {
+            return s;
+        }
+
+        return string.Format("{0} WHERE {1}", s,
+            string.Join(" AND ", fields.Select(p => string.Format("{0} = {1}", p.Bracket(), p.Parameterize()))));
+    }
 
 In either case the result of `Query` would send back an `IEnumerable<Person>`.
 
